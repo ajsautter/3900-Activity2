@@ -1,0 +1,165 @@
+img {
+max-width: 100%;
+}
+
+body {
+
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+#wrapper {
+
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+
+}
+
+a {
+
+    color: #b46a6a
+
+}
+
+h3{
+
+    margin: 0 0 1em 0;
+
+}
+
+/*************
+HEADING
+***************/
+
+header {
+    float: left;
+    margin: 0 0 20px 0;
+    padding: 2px 0 0 0;
+    width: 100%;
+
+}
+
+#logo {
+
+
+    text-align: center;
+    margin: 0;
+
+}
+
+
+h1{
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin: 10px 0;
+font-size: 1.75em;
+font-weight: normal;
+line-height: 0.5;
+text-align: center;
+color: #FF0000;
+
+
+}
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.00em;
+    font-weight: normal;
+    text-align: center;
+    margin: -5px 0 0;
+
+}
+
+h3 {
+
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 15px 0 0;
+    color: #FF0000;
+
+}
+
+
+/***********
+Footer
+**********/
+
+footer {
+
+font-size: 0.75em;
+text-align: center;
+clear: both;
+padding-top: 50px;
+color: rgb(0, 0, 0);
+
+
+}
+
+
+/********
+content
+*********/
+
+
+.myimage {
+
+    float:top;
+    width:150px;
+    height:175px;
+    margin: 20px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutme {
+    float:top;
+    width:250px;
+    height:175px;
+    margin: 20px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*****
+COLORS
+**************/
+
+
+ /* green header*/
+  header {
+   background: #6ab47b;
+   border-color: #599a68;
+ }
+
+ /* logo text*/
+
+ h1,h2,h3  {
+    color: #e61109;
+}
+
+/* nav background on mobile devices*/
+nav {
+   background: #599a6b;
+}
+
+nav a, nav a:visited {
+	color: rgb(255, 255, 255);
+}
+
+/* selected nav link color*/
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+/* site body*/
+body {
+    background-color: rgb(157, 172, 161);
+    color: #000;
+}
